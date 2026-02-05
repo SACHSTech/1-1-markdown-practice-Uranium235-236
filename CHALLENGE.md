@@ -28,10 +28,18 @@ Test your knowledge of Markdown syntax with these examples. Can you re-create th
          * Redis
 
 ## Example 2
-This is a single paragraph sentence that should break softly with two spaces at the end of the previous line. Here’s the continuation of the same paragraph. Now this is a hard break (blank line above), which creates a brand new paragraph.
+This is a single paragraph sentence that
+<br>
+should break softly with two spaces at the end of the previous line. 
+<br>
+Here’s the continuation of the same paragraph.
+
+Now this is a hard break (blank line above),
+<br>
+which creates a brand new paragraph.
 
 ## Example 3
-![](https://upload.wikimedia.org/wikipedia/commons/4/48/Markdown-mark.svg)
+[![massive grandpappy](https://upload.wikimedia.org/wikipedia/commons/4/48/Markdown-mark.svg)](https://www.markdownguide.org)
 
 _Click the image above to visit the Markdown Guide website._
 
@@ -49,6 +57,6 @@ _Click the image above to visit the Markdown Guide website._
 ## Example 5
 | Tool |  Strengths | Weaknesses |
 |------|------------|------------|
-| GitHub | Easy collaboration,  integrates CI/CD | Requires knowledge of git |
-| Markdown | Lightweight, portable, human-readable | Limited styling compared to HTML |
+| **GitHub** | Easy collaboration,  integrates CI/CD | Requires knowledge of git |
+| _Markdown_ | Lightweight, portable, human-readable | Limited styling compared to HTML |
 | VS Code | Extensions, debugging, free | Can feel heavy on low-end machines |
